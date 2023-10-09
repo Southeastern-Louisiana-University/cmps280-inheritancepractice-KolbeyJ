@@ -40,4 +40,8 @@ public class Circle extends GeometricObject {
     System.out.println("The circle is created " + getDateCreated() +
       " and the radius is " + radius);
   }
+  public String toString(){
+    return (super.toString() + " the radius is " + radius);
+
+  }
 }
